@@ -1,0 +1,63 @@
+/* To keep the MessageSender box in correct order */
+.MessageSender {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+/* To keep the border for the hole MessageSender */
+.MessageSender_top{
+    display: flex;
+    border-bottom: 1px solid #eff2f5;
+    padding: 15px;
+}
+/* To seperate the Message box and the Icons below */
+.MessageSender_top {
+    flex: 1;
+    display: flex;
+}
+/* To design the MessageSender box */
+.MessageSender_top > form >input{
+    outline-width: 0;
+    border: none;
+    padding: 5px 20px;
+    margin: 0 10px;
+    border-radius: 999px;
+    background-color: #eff2f5;
+}
+/* To hide the Hidden Button */
+.MessageSender_top > form > button {
+    display: none;
+}
+/* To increase the size of the message box where we type */
+.MessageSender_input {
+    flex: 1;
+    width: 300px;
+}
+/* To arrange the icons in order */
+.MessageSender_bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* To keep the icons in proper look */
+.MessageSender_option {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    color:gray;
+    margin: 5px;
+}
+/* To move the messagesender box left */
+.MessageSender_option > h3 {
+    font-size: medium;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/* To highlight the icon options */
+.MessageSender_option:hover {
+    background-color: #eff2f5;
+    border-radius: 20px;
+}

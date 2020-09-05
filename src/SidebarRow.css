@@ -1,0 +1,25 @@
+/* To arrange the icons and names in correct order */
+.SidebarRow {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* To highlight the icon lines */
+.SidebarRow:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+/* To change the font size*/
+.SidebarRow > h4{
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+/* To give color for the icons */
+.SidebarRow > .MuiSvgIcon-root{
+    font-size: xx-large;
+    color: #2e81f4;
+}
