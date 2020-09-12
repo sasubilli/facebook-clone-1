@@ -31,7 +31,7 @@ function Sidebar() {
         {/* This PeopleIcon is taken from import above */}
         <SidebarRow Icon={PeopleIcon} title="Friends"/>
         {/* This ChatIcon is taken from import above */}
-        <SidebarRow Icon={ChatIcon} title="Messanger"/>
+        <a class="Messenger"href="https://messenger-clone-652e1.web.app/" target="blank"><SidebarRow Icon={ChatIcon}  title="Messenger" /></a>
         {/* This StorefrontIcon is taken from import above */}
         <SidebarRow Icon={StorefrontIcon} title="Marketplace"/>
         {/* This VideoLibraryIcon is taken from import above */}
